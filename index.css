@@ -675,12 +675,7 @@ nav .fa-solid {
   }
 }
 
-@media screen and (min-width: 376px) and (max-width:598px){
-  
-  body{
-    margin: 0;
-  }
-  
+@media screen and (min-width: 376px) {
   .content {
     padding-top: 60px;
   }
