@@ -500,6 +500,14 @@ nav .fa-solid {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+.hamburger.fixed {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 1000; /* Adjust as needed */
+}
+
+
 @media only screen and (max-width: 600px) {
   .starter {
     background-image: url("port3.jpg");

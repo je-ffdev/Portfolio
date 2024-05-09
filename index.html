@@ -426,7 +426,14 @@
         menu.classList.toggle('open');
         var hamburger = document.querySelector('.hamburger');
         hamburger.classList.toggle('active');
-      }
+    
+    // Add or remove the 'fixed' class from the hamburger icon
+        if (hamburger.classList.contains('active')) {
+          hamburger.classList.add('fixed');
+        } else {
+        hamburger.classList.remove('fixed');
+        }
+}
 
 
     </script>
