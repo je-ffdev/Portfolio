@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png" href="x-icon.jpg">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/477cbdf37c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="starter">
+      <nav>
+        <h2 class="logo">Port<span class="folio">folio</span></h2>
+        <ul id="sidemenu">
+          <li><a href="#starter">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <!-- Hamburger icon -->
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+    </div>
+    
+    
+
+      <div class="content">
+        <h4>Hey there, I am</h4>
+        <h1>Teye <span> Caleb Jeffery</span></h1>
+        <h3>Petroleum Engineer and Full Stack Web Developer</h3>
+       
+      </div>
+    </div>
+
+    <i id="arrow-down" class="fa-solid fa-circle-arrow-down"></i>
+    <i id="arrow-up" class="fa-solid fa-circle-arrow-up"></i>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="me2.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="subtitle">About Me</h2>
+            <p>
+                With a unique blend of expertise in both petroleum engineering and full stack web development, I bring a multifaceted approach to solving complex problems and driving innovation in diverse industries.
+
+                As a petroleum engineer, I thrive on the challenges of optimizing resource extraction, maximizing efficiency, and ensuring environmental sustainability in the energy sector. My deep understanding of reservoir dynamics, drilling techniques, and production processes allows me to devise creative solutions that push the boundaries of what's possible in oil and gas exploration and production.
+            </p>
+
+            <p>
+                Simultaneously, my proficiency as a full stack web developer empowers me to leverage cutting-edge technologies and design intuitive, user-centric digital solutions. Whether it's developing robust data analytics platforms for real-time monitoring of well performance, creating interactive visualization tools to enhance decision-making processes, or building scalable web applications to streamline operations, I excel at bridging the gap between traditional engineering practices and modern digital solutions.
+            </p>
+            <p>
+              I am dedicated to providing my clients with high-quality work and
+              excellent customer service. I take the time to understand their
+              unique needs and goals, and work closely with them to create a
+              website that exceeds their expectations.
+            </p>
+            <p>
+                My ability to seamlessly integrate technical expertise with strategic thinking and innovative problem-solving enables me to deliver impactful results that drive efficiency, enhance productivity, and unlock new opportunities for growth. With a passion for continuous learning and a commitment to excellence, I am poised to make a significant impact in both the petroleum engineering and tech industries, driving sustainable progress and shaping the future of energy and digital innovation.
+            </p>
+            <p>
+              Thank you for taking the time to visit my portfolio, and I look
+              forward to the opportunity to work with you on your next project.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li><span>Responsive Web Design</span><br />Web app Development</li>
+                <li>
+                  <span>Autocad</span><br />Engineering drawing with Autocad
+                </li>
+                <li><span>Engineering Python and Django</span><br />Jupyter Notebooks and Backend Development with Django</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>September-October, 2023</span><br />Tema Lube Oil Company Limited</li>
+                <li>
+                  <span>Work Experience</span><br />Working on the drum plant, the blending section and the filling plant of the production department of the company. Heading toolbox talks on the drum plant
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Current</span><br />Kwame Nkrumah University of Science
+                  and Technology, Kumasi Ghana
+                </li>
+                <li>
+                    <span>December, 2023</span><br />freeCodeCamp.org
+                  </li>
+                <li>
+                  <span>Web Development Background</span><br />
+                  I am a self-taught developer with a passion for coding and
+                  problem-solving. I have taught myself a variety of programming
+                  languages such as JavaScript and Python, through online
+                  resources, tutorials, and personal projects.
+                  <br>
+                  I am highly motivated to continue learning and expanding my skillset in
+                  the field of software development. My self-taught experience
+                  has given me the ability to learn quickly, think
+                  independently, and come up with creative solutions to complex
+                  problems. I am excited to bring this unique perspective and
+                  drive to any development team.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="title">
+        <h2>My Services</h2>
+      </div>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Responsive Web Design</h2>
+          <p>
+            I am a web designer with a keen eye for aesthetics and user
+            experience. I offer a wide range of web design services, including
+            but not limited to:
+          </p>
+          <br/>
+          <p>
+            -Custom website design and development <br />
+            -Responsive design for optimal viewing on all devices <br />
+            -Landing page design <br />
+            -Search Engine Optimization <br />
+            -Content creation <br />
+            -Wordpress <br />
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-bars"></i>
+          <h2>UI/UX Design</h2>
+          <p>
+            As a UI/UX designer, I design the overall aesthetic and visual style
+            of a user interface, including creating high-fidelity mockups and
+            design guidelines. I also
+          </p>
+          <p>
+            Create and implement the design using front-end development
+            technologies such as HTML, CSS, React, Bootstrap and JavaScript.
+          </p>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Engineering Python</h2>
+          <p>
+            Utilizing the power of Jupyter Notebooks, I provide data analysis
+            and visualization services for engineering projects. I use Python
+            libraries such as Numpy, Pandas and Matplotlib to manipulate and
+            interpret large datasets, and create interactive visualizations to
+            communicate findings.
+            <br />
+            <p>I can work with data from various sources such
+              as CSV, Excel, SQL databases and APIs I also provide a wide variety
+              of visualization techniques like histograms, scatter plots, box
+              plots, heatmaps, etc</p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="services">
+      <div class="title">
+        <h2>My Work</h2>
+      </div>
+      <div class="services-list">
+        <div>
+            <i class="fa-solid fa-gamepad"></i>
+          <h2>Black Jack Game app</h2>
+          <p>
+            A game app made with simple HTML, CSS and some JavaScript
+          </p>
+          <a
+            href="https://je-ffdev.github.io/Black-Jack-/"
+            target="_blank"
+            >Explore</a
+          >
+        </div>
+
+        <div>
+          <i class="fa-solid fa-thumbs-up"></i>
+          <h2>VacAI App</h2>
+          <p>
+            A presentation of the new and improved VacAI app
+          </p>
+          <a href="https://drive.google.com/file/d/1ufA5-UJwuTOWzQAO5b0NQa7829D2kzsY/view?usp=sharing" target="_blank"
+            >Explore</a
+          >
+        </div>
+
+        <div>
+          <i class="fa-solid fa-puzzle-piece"></i>
+          <h2>Chrome Extension</h2>
+          <p>
+            A lead tracker chrome extension that stores and tracks leads from any website
+          </p>
+          <a href="https://je-ffdev.github.io/Chrome-Extension/" target="_blank">Explore</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="services">
+        <div class="title">
+          <h2>License and Certifications</h2>
+        </div>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-free-code-camp"></i>
+            <h2>Responsive web design</h2>
+            <p>
+              Certification from freeCodeCamp.org
+            </p>
+            <a
+              href="https://www.freecodecamp.org/certification/jeffdev/responsive-web-design"
+              target="_blank"
+              >View Certification</a
+            >
+          </div>
+  
+          <div>
+            <i class="fa-brands fa-free-code-camp"></i>
+            <h2>JavaScript Algorithms and Data Structures</h2>
+            <p>
+              JavaScript Certification from freeCodeCamp.org
+            </p>
+            <a href="https://www.freecodecamp.org/certification/jeffdev/javascript-algorithms-and-data-structures" target="_blank"
+              >View Certification</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-aws"></i>
+            <h2>Building Language Models on AWS</h2>
+            <p>
+              Certification from Amazon Web Services
+            </p>
+            <a href="https://drive.google.com/file/d/1uPcnhsL7nw3JDs8cmEfDpRsIAaM7loVV/view?usp=sharing" target="_blank"
+              >View Certification</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-aws"></i>
+            <h2>Foundations of Prompt Engineering</h2>
+            <p>
+              Certification from Amazon Web Services
+            </p>
+            <a href="https://drive.google.com/file/d/1mJvKbpcj7lf3AzhMBIsk7O51dus9QPWg/view?usp=sharing" target="_blank"
+              >View Certification</a
+            >
+          </div>
+          
+        </div>
+      </div>
+
+    <div id="contact">
+      <p>Partner with me, and let me make your work easier</p>
+      <a class="button-two" href="https://www.upwork.com/freelancers/~019d813e58e760e4c7?mp_source=share" target="_blank">Hire Me</a>
+    </div>
+
+    <footer>
+      <p>Teye Caleb Jeffery</p>
+
+      <a
+        class="mail-link"
+        href="mailto:jeffdev.mgmt@gmail.com?subject=Subject&body=Message"
+        >Email me</a
+      >
+
+      <p>You can also contact me on my socials</p>
+
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/calebjeffery/"
+          target="_blank"
+        >
+          <svg
+            class="social-icons"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+            />
+          </svg>
+        </a>
+        <a href="https://twitter.com/jstarcaleb" target="_blank">
+          <svg
+            class="social-icons"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+            />
+          </svg>
+        </a>
+        <a href="https://github.com/je-ffdev" target="_blank">
+          <svg
+            class="social-icons"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 496 512"
+          >
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <p class="end">
+        Copyright
+        <svg
+          class="copyright"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+          <path
+            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM199.4 312.6c31.2 31.2 81.9 31.2 113.1 0c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9c-50 50-131 50-181 0s-50-131 0-181s131-50 181 0c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0c-31.2-31.2-81.9-31.2-113.1 0s-31.2 81.9 0 113.1z"
+          />
+        </svg>
+        calebjeffery
+      </p>
+    </footer>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      document.getElementById("arrow-up").style.display = "none";
+      document.getElementById("arrow-down").style.display = "none";
+
+      // hide the arrow icons by default
+      document.getElementById("arrow-up").style.display = "none";
+      document.getElementById("arrow-down").style.display = "none";
+
+      // check the scroll position and show the arrow icons as needed
+      window.onscroll = function () {
+        var scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop;
+        var scrollHeight =
+          document.documentElement.scrollHeight || document.body.scrollHeight;
+        var clientHeight =
+          document.documentElement.clientHeight || document.body.clientHeight;
+
+        // show the arrow up icon if the user is not at the top of the page
+        if (scrollTop > 0) {
+          document.getElementById("arrow-up").style.display = "block";
+        } else {
+          document.getElementById("arrow-up").style.display = "none";
+        }
+
+        // show the arrow down icon if the user is not at the bottom of the page
+        if (scrollTop + clientHeight < scrollHeight) {
+          document.getElementById("arrow-down").style.display = "block";
+        } else {
+          document.getElementById("arrow-down").style.display = "none";
+        }
+      };
+      document
+        .getElementById("arrow-up")
+        .addEventListener("click", function () {
+          window.scrollTo(0, 0);
+        });
+      document
+        .getElementById("arrow-down")
+        .addEventListener("click", function () {
+          window.scrollTo(0, document.body.scrollHeight);
+        });
+    </script>
+
+    <script>
+      function toggleMenu() {
+        var menu = document.querySelector('nav ul');
+        menu.classList.toggle('open');
+        var hamburger = document.querySelector('.hamburger');
+        hamburger.classList.toggle('active');
+      }
+
+
+    </script>
+  </body>
+</html>
