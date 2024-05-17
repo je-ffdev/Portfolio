@@ -468,6 +468,11 @@ nav .fa-solid {
   display: none;
 }
 
+.alxImage {
+  width: 45px;
+  margin-bottom: 25px;
+}
+
 .hamburger {
   display: none; /* Initially hide the hamburger icon */
   position: absolute;
@@ -506,7 +511,6 @@ nav .fa-solid {
   right: 20px; /* Adjust as needed */
   z-index: 1000; /* Adjust as needed */
 }
-
 
 @media only screen and (max-width: 600px) {
   .starter {
@@ -683,7 +687,7 @@ nav .fa-solid {
   }
 }
 
-@media screen and (min-width: 370px) and (max-width:598px){
+@media screen and (min-width: 370px) and (max-width: 598px) {
   .content {
     padding-top: 60px;
   }
