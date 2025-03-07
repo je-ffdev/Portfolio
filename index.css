@@ -473,6 +473,11 @@ nav .fa-solid {
   margin-bottom: 25px;
 }
 
+.transtechImage{
+  width: 45px;
+  margin-bottom: 25px;
+}
+
 .hamburger {
   display: none; /* Initially hide the hamburger icon */
   position: absolute;
